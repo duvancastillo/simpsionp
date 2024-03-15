@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ShowQuotes } from './ShowQuotes';
-import { getQuote } from '../helpr/getQuote';
+import { getQuote } from '../helpers/getQuote';
 
 export const ListQuotes = () => {
   const [quotes, setQuotes] = useState([]);
